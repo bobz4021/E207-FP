@@ -1,6 +1,5 @@
 # E207-FP
 Project Title: Online Time Warping
-Partner: Dan, Rafael, Diego, Bob:+1 4084386425	    
 Team A:
 Team B:
 
