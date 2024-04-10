@@ -1,48 +1,15 @@
-# E207-FP: Online Time Warping
+# FlexDTW
 
-## Project Overview
+This repository contains an implementation of the FlexDTW algorithm, which is a variant of Dynamic Time Warping that handles flexible boundary conditions.
 
-This project aims to explore the effectiveness of various time warping algorithms applied to audio processing, specifically focusing on the use of chroma features for alignment and comparison of audio recordings. The primary dataset for this study is the Mazuika Dataset.
+You can find the ISMIR paper [here](https://drive.google.com/file/d/1YoA-PJAEDcX69JzDWARXT5ql6cCmTEwi/view?usp=drive_link).
 
-## Team Structure
+## Citation
 
-- **Team A:**
-- **Team B:**
+Irmak Bukey, Jason Zhang, and TJ Tsai.  "FlexDTW: Dynamic Time Warping With Flexible Boundary Conditions."  Proceedings of the International Society for Music Information Retrieval Conference, 2023, pp. 733-740.
 
-## Objectives and Tasks
 
-### Initial Setup
+### Acknowledgments
 
-- Select 2 train audio recordings from the Mazuika Dataset.
-- Both subteams are tasked with reading the MATCH paper to understand the foundational concepts and methodologies.
+This material is based upon work supported by the National Science Foundation under Grant No. 2144050.  Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
 
-### Implementation Phase
-
-- **Team A:** Focus on getting the MATCH algorithm up and running. This involves understanding and applying the algorithm specifically with chroma features.
-  
-- **Both Teams:** Acquire the FlexDTW implementation from the appropriate repository. The goal here is for both teams to implement an online time warping algorithm that can process audio data in real-time or near-real-time.
-
-### Experimentation and Comparison
-
-- **Team B:** Compare the Dynamic Time Warping (DTW) algorithm when utilizing chroma features for audio alignment.
-  
-- **Both Teams:** Explore the Online FlexDTW with chroma features. This involves understanding how chroma features can be integrated with the FlexDTW algorithm for better performance in audio alignment tasks.
-
-- **Team A:** Specifically compare the MATCH algorithm's performance when chroma features are utilized. This requires a deep dive into how the MATCH algorithm can be optimized or adjusted for chroma features.
-
-- **Both Teams:** Investigate the effect of window size on the algorithms' performances. This involves experimenting with a range of window sizes to determine their impact on the accuracy and efficiency of the time warping processes.
-
-### Results Replication and Analysis
-
-- **Team B:** Replicate results using the Mazurika Dataset, with Professor Tsai providing the necessary code. This task is crucial for validating the experiments and ensuring that the findings are reliable and reproducible.
-
-  - Focus on DTW with chroma features, comparing it against other methodologies to highlight its strengths and weaknesses.
-
-## Expected Outcomes
-
-The project aims to compare various time warping algorithms, particularly focusing on:
-- The use of chroma features in DTW and FlexDTW implementations.
-- The performance and applicability of the MATCH algorithm with chroma features.
-- The impact of window size on the algorithms' effectiveness.
-
-By conducting these comparisons and analyses, the project seeks to contribute to the understanding of how time warping algorithms can be optimized for audio processing tasks, particularly in the context of online or real-time applications.
